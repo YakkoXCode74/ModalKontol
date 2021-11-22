@@ -568,7 +568,7 @@ Hit Today : *${hit_today.length}*
 ► _${prefix}groupmenu
 
 ❏ *YakkoXCode•SELFBOT* ❏`
-        await yoks.send2ButtonImg(from, menu, fs.readFileSync(`./media/stik/menu.jpeg`), `YakkoXCode•BOT by @${owner}`, '🔸DEVELOPER', `${prefix}owner`, '⏳Test Speed', `${prefix}speed`, { quoted: freply, contextInfo:{ mentionedJid: [`${owner}@s.whatsapp.net`]}})
+        await yoks.send2ButtonImg(from, menu, fs.readFileSync(`./media/stik/menu.jpeg`), `YakkoXCode•BOT by @${owner}`, '🔸OWNER', `${prefix}owner`, '⏳Test Speed', `${prefix}speed`, { quoted: freply, contextInfo:{ mentionedJid: [`${owner}@s.whatsapp.net`]}})
         } catch (e) {
 	if (e.toString().includes('marker was not found')) return yoks.send2ButtonImg(from, menu, fs.readFileSync(`./media/stik/menu.jpeg`), `YakkoXCode•BOT by @${owner}`, '🛡️ REGISTER', `${prefix}daftar`, '⏳RUNTIME', `${prefix}runtime`, { quoted: freply, contextInfo:{ mentionedJid: [`${owner}@s.whatsapp.net`]}})
        return e
